@@ -1,3 +1,9 @@
+"""
+control/BaseControl.py
+抽象基类，读 URDF、拆 state、定义接口
+
+"""
+
 import os
 import numpy as np
 import xml.etree.ElementTree as etxml

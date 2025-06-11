@@ -1,3 +1,10 @@
+"""
+control/DSLPIDControl.py
+DSL 实验室 PID（位置→姿态→PWM→RPM）
+输出：(rpm(4), pos_error(3), yaw_error)
+"""
+
+
 import math
 import numpy as np
 import pybullet as p

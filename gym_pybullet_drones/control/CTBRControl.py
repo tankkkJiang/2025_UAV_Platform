@@ -1,3 +1,10 @@
+"""
+control/CTBRControl.py
+基于四元数的 PD＋角速度控制
+输出：(norm_thrust, ωx, ωy, ωz)
+"""
+
+
 import os
 import numpy as np
 import xml.etree.ElementTree as etxml
